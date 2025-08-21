@@ -33,6 +33,7 @@
     align-items: center;
     color: $main-color;
     height: 60px;
+    transition: color 300ms ease;
 
     &:hover {
       color: $btn-color;

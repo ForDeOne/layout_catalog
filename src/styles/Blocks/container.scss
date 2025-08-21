@@ -3,8 +3,7 @@
 
   display: grid;
   grid-template-columns: repeat(var(--column-count), 200px);
-  gap: 48px;
-  column-gap: 46px;
+  gap: 48px 46px;
 
   padding: 50px 40px;
 
