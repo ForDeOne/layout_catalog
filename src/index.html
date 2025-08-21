@@ -17,83 +17,84 @@
     />
     <link
       rel="stylesheet"
-      href="styles/main.scss"
+      href="styles/index.scss"
     />
   </head>
 
   <body>
-    <!-- #region header-->
-    <header class="navigation">
-      <div class="navigation__wraper">
-        <div class="navigation__logo">
-          <img
-            src="images/logo.png"
-            alt="moyo logo"
-          />
+    <header class="moyo">
+      <div class="moyo-header">
+        <div class="moyo-header__logo">
+          <a href="/#">
+            <img
+              src="./images/logo.png"
+              alt="logo Moyo"
+            />
+          </a>
         </div>
-        <nav>
-          <ul class="navigation__list">
-            <li class="navigation__item">
+        <nav class="moyo-header__nav">
+          <ul class="moyo-header__nav-list">
+            <li class="moyo-header__nav-item">
               <a
                 href="#"
-                class="navigation__link is-active"
+                class="is-active moyo-header__nav-link"
               >
                 Apple
               </a>
             </li>
-            <li class="navigation__item">
+            <li class="moyo-header__nav-item">
               <a
+                class="moyo-header__nav-link"
                 href="#"
-                class="navigation__link"
               >
                 Samsung
               </a>
             </li>
-            <li class="navigation__item">
+            <li class="moyo-header__nav-item">
               <a
+                class="moyo-header__nav-link"
                 href="#"
-                class="navigation__link"
               >
                 Smartphones
               </a>
             </li>
-            <li class="navigation__item">
+            <li class="moyo-header__nav-item">
               <a
+                class="moyo-header__nav-link"
                 href="#"
-                class="navigation__link"
                 data-qa="nav-hover"
               >
                 Laptops & Computers
               </a>
             </li>
-            <li class="navigation__item">
+            <li class="moyo-header__nav-item">
               <a
+                class="moyo-header__nav-link"
                 href="#"
-                class="navigation__link"
               >
                 Gadgets
               </a>
             </li>
-            <li class="navigation__item">
+            <li class="moyo-header__nav-item">
               <a
+                class="moyo-header__nav-link"
                 href="#"
-                class="navigation__link"
               >
                 Tablets
               </a>
             </li>
-            <li class="navigation__item">
+            <li class="moyo-header__nav-item">
               <a
+                class="moyo-header__nav-link"
                 href="#"
-                class="navigation__link"
               >
                 Photo
               </a>
             </li>
-            <li class="navigation__item">
+            <li class="moyo-header__nav-item">
               <a
+                class="moyo-header__nav-link"
                 href="#"
-                class="navigation__link"
               >
                 Video
               </a>
@@ -102,12 +103,12 @@
         </nav>
       </div>
     </header>
-    <!-- #endregion-->
-
-    <!-- #region catalog-->
     <main class="catalog">
-      <div class="container">
-        <div class="card">
+      <div class="catalog__grid">
+        <div
+          class="card"
+          data-qa="card"
+        >
           <div class="card__container">
             <div
               class="card__item"
@@ -464,6 +465,5 @@
         </div>
       </div>
     </main>
-    <!-- #endregion-->
   </body>
 </html>
